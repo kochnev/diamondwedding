@@ -1,0 +1,165 @@
+main .main-pict {
+    height: 220px;
+    background:
+        url('../svg/ill_characters/povar.svg') 15px 80px no-repeat,
+        url('../svg/ill_characters/povar.svg') 65px 80px no-repeat,
+        url('../svg/ill_characters/coordinator.svg') 130px 85px no-repeat,
+        url('../svg/ill_characters/oficiant1.svg') 190px 100px no-repeat,
+        url('../svg/ill_characters/decorator.svg') 270px 100px no-repeat,
+        url('../svg/ill_characters/vasa.svg') 315px 90px no-repeat,
+        url('../svg/ill_characters/coordinator.svg') 370px 75px no-repeat,
+        url('../svg/ill_characters/photograph.svg') 410px 90px no-repeat,
+        url('../svg/ill_characters/vasa.svg') 455px 110px no-repeat,
+        url('../svg/ill_characters/arka.svg') 495px 55px no-repeat,
+        url('../svg/ill_characters/para.svg') 545px 90px no-repeat,
+        url('../svg/ill_characters/vasa.svg') 660px 110px no-repeat,
+        url('../svg/ill_characters/vedushi.svg') 690px 100px no-repeat,
+        url('../svg/ill_characters/coordinator.svg') 765px 85px no-repeat,
+        url('../svg/ill_characters/vasa.svg') 800px 90px no-repeat,
+        url('../svg/ill_characters/oficiant2.svg') 825px 90px no-repeat,
+        url('../svg/ill_characters/gosti.svg') 905px 110px no-repeat,
+        url('../svg/ill_characters/coordinator.svg') 1120px 85px no-repeat;
+
+    background-size:
+        40px 125px,  /*povar*/
+        40px 125px,  /*povar*/
+        40px 120px,  /*coord*/
+        70px 105px,  /*ofic*/
+        40px 95px,  /*flor*/
+        40px 85px,  /*vasa*/
+        40px 120px,  /*coord*/
+        40px 105px,  /*foto*/
+        40px 85px,  /*vasa*/
+        170px 140px,  /*arka*/
+        70px 105px, /*para*/
+        40px 85px,  /*vasa*/
+        70px 105px,  /*vedush*/
+        40px 120px,  /*coord*/
+        40px 85px,  /*vasa*/
+        90px 105px,  /*offic*/
+       225px  95px, /*gosti*/
+       40px 120px;  /*coord*/
+}
+.line{
+
+    background-color: #e7d3ca;
+    height: 2px;
+    border: 0;
+    margin: 0;
+}
+main .info-picts
+{
+    height: 160px;
+}
+main>div>figure{
+    width: 175px;
+    height: 150px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 0px;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    font-family: 'Roboto Light', sans-serif;
+    vertical-align: bottom;
+
+}
+
+main>div>figure:last-of-type
+{
+    margin-right: 0;
+}
+main figure>img
+{
+    margin: 10px;
+   display: inline-block;
+   vertical-align: bottom;
+   width: 100%;
+}
+main .sum
+{
+    background-image: url('../svg/info_icons/border.svg');
+    background-size: 1170px 12px;
+    width: 1170px;
+    height: 12px;
+}
+
+.price-info p {
+    text-align: center;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.price-info .price {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Regular', sans-serif;
+    position: relative;
+}
+
+
+
+.about .abt-left {
+    float: left;
+    width: 570px;
+    margin-right: 30px;
+    margin-top: -20px;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.about .abt-left h2 {
+    font-family: 'Exo 2.0 Light', sans-serif;
+    font-size: 18px;
+}
+
+.about .abt-left .artcl {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.about .abt-left .citate {
+    font-size: 18px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.about .abt-left .citate:before,
+.about .abt-left .citate:after {
+    content: '“';
+    left: -60px;
+    top: -40px;
+    position: absolute;
+    font-family: 'Andika';
+    font-size: 80px;
+    color: #e7d3ca;
+}
+
+.about .abt-left .citate:after {
+    content: '”';
+    left: 250px;
+    top: 20px;
+}
+
+.about .abt-left .sign {
+    text-align: right;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 14px;
+}
+
+.about .abt-left .sign span {
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.about .abt-right {
+    margin-top: 20px;
+}
+
+.about:after {
+    content: '';
+    display: table;
+    clear: both;
+}

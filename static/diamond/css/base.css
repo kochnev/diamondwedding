@@ -1,0 +1,157 @@
+body {
+    padding: 0px;
+    margin: 0px auto;
+    width: 1170px;
+}
+
+body a {
+    text-decoration: none;
+    color: #ff1565;
+}
+
+body a:hover {
+    color: #d90a51;
+}
+
+.container-logo
+{
+    float: left;
+    width: 270px;
+    height: 76px;
+    margin-top: 20px;
+}
+.header-logo
+{
+   float:left;
+   height: 35px;
+   margin-right: 10px;
+}
+.header-logo-name
+{
+    float:left;
+    height:15px;
+    padding-top: 12px;
+
+}
+header {
+    height: 90px;
+}
+
+
+header .header-menu {
+    float: left;
+    padding: 2px 5px;
+    margin: 0px auto;
+    font-family: 'Exo 2.0 Medium', sans-serif;
+    font-size: 14px;
+}
+
+header .header-menu li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+header .header-menu li:last-of-type {
+    margin-right: 0px;
+}
+
+header .header-menu li a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 70px;
+    padding-left: 0px;
+    color: #bdc3c7;
+    border-top: 2px solid white;
+}
+
+ header .header-menu li a:hover {
+    border-top: 2px solid #d90a51;
+    color: #d90a51;
+}
+
+header .header-contacts {
+    float: right;
+    margin-top: 5px;
+}
+
+header .header-contacts p {
+    text-align: right;
+    font-family: 'Roboto Light';
+    font-size: 12px;
+    font-weight: bold;
+    color: #3b2c31;
+    margin: 0;
+}
+
+header .header-contacts span {
+    font-size: 18px;
+    font-family: 'Exo 2.0 Light';
+    line-height: 36px;
+}
+
+header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main h1 {
+    font-size: 24px;
+    font-family: 'Exo 2.0 Light', sans-serif;
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 20px;
+    min-height: 50px;
+}
+
+footer div {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 12px;
+    margin-right: 150px;
+    line-height: 20px;
+}
+
+footer .logo-fut {
+    padding-left: 110px;
+    float: left;
+    position: relative;
+}
+
+footer .logo-fut:before {
+    content: '';
+    position: absolute;
+    left: 58px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background: url('../svg/logo_footer.svg') no-repeat;
+    background-size: 40px auto;
+}
+
+footer .logo-fut p a {
+    font-family: 'Roboto Medium', sans-serif;
+}
+
+footer .copyrights {
+    float: left;
+    width: 300px;
+}
+
+footer .social-buttons .btn {
+    margin-top: 30px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background: url('../../common-static/svg/socials/insta.svg') no-repeat;
+    background-size: 30px auto;
+    margin-right: 30px;
+}
+
+footer .social-buttons .vk {
+    background: url('../../common-static/svg/socials/vk.svg') no-repeat;
+    background-size: 30px auto;
+}
