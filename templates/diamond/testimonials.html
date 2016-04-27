@@ -1,0 +1,31 @@
+
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block csslink %}
+<link href="{% static 'diamond/css/testimonials.css' %}" rel="stylesheet">
+{% endblock %}
+{% block nav-testimonials %}<span class="nav-active">Отзывы</span>{% endblock %}
+{% block content %}
+
+         <h1 class="exo18">Отзывы</h1>
+         <div class="testimonial">
+              <div class="wrapper-main">
+                    <img src="{% static 'diamond/img/Testimonials1.png' %}"></img>
+                    <div class="date">
+                         <p class="roboto18">14</p>
+                         <p class="roboto10-black">АПР</p>
+                         <p class="roboto10-black">2014</p>
+                    </div>
+              </div>
+
+
+              <div class="roboto10"><div class="rings"></div>СИРЕНЕВАЯ СВАДЬБА</div>
+              <p class="exo18">Вадим и Анастасия</p>
+              <p class="roboto14">Вадим и Анастасия оставили видеоотзыв о нашей работе.</p>
+              <div class="video-icon"></div>
+              <div class="roboto10">СМОТРЕТЬ ВИДЕООТЗЫВ</div>
+         </div>
+
+{% endblock%}

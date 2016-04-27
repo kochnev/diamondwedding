@@ -1,0 +1,86 @@
+
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block csslink %}
+<link href="{% static 'diamond/css/contacts.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block script %}
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+        function initialize(){
+
+          var point = new google.maps.LatLng(55.798944, 37.693632);
+
+          var myMapOptions = {
+            zoom: 15,
+            center: point,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+
+          var map = new google.maps.Map(document.getElementById("map"),myMapOptions);
+
+          var marker = new google.maps.Marker({
+            map: map,
+            position: point,
+            icon:'{% static "diamond/png/pin.png"%}'
+          });
+        }
+        window.onload = initialize;
+</script>
+{% endblock %}
+
+{% block nav-contacts %}<span class="nav-active">Контакты</span>{% endblock %}
+
+{% block content %}
+<main>
+    <h1 class="exo18">Контакты</h1>
+    <div class="info roboto-light-14">
+        <div class="contacts">
+            <div class="row">
+                <span class="pic phone-icon"></span>
+                <a href="#">+7 (916) 207-25-25</a>
+            </div>
+            <div class="row">
+                 <span class="pic mail-icon"></span>
+                 <a href="#">info@diamondagency.ru</a>
+            </div>
+            <div class="row">
+                  <span class="pic address-icon"></span>
+                  <span>Москва, Колодезный пер, 2А</span>
+             </div>
+        </div>
+        <div class="information">
+            <div class="pic time-icon"></div>
+            <div class="info-text">
+                 <div class="row">Мы работаетм с понедельника по пятницу с 11 до 20 часов. По предварительному</div>
+                 <div class="row">согласования возможны также встречи в выходные дни.  Все наши встречи</div>
+                 <div class="row">проходят по предварительному звонку.</div>
+            </div>
+        </div>
+        <div class="yur-info">
+            <div class="pic details-icon"></div>
+            <div class="info-text">
+                 <div class="row">МООО "Даймонд Эдженси"</div>
+                 <div class="row">ОГРН 5137746011079</div>
+                 <div class="row"> ИНН 7719859732.</div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="main-2 roboto-light-14">
+    <form action="#" method="#">
+        <h2 class="exo18">Обратная связь</h2>
+        <input type="text" name="user-name" id="user-name" placeholder="Как Вас зовут?">
+        <input type="text" name="user-tel" id="user-tel" placeholder="Ваш контактный телефон">
+        <input type="text" name="user-mail" id="user-mail" placeholder="Ваш e-mail">
+        <label for="message">Ваше сообщение или вопрос</label>
+        <input type="text" name="message" id="message">
+        <input type="submit" value="ОТПРАВИТЬ">
+    </form>
+    <div id="map" class="right" ></div>
+</div>
+{% endblock %}

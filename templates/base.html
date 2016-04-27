@@ -10,6 +10,7 @@
  <link href='http://fonts.googleapis.com/css?family=Exo+2&subset=latin,cyrillic' rel='stylesheet'>
  <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic,latin-ext' rel='stylesheet'>
  <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+ {% block script %}{% endblock %}
  <!--[if lt IE 9]>
      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
  <![endif]-->
@@ -17,19 +18,19 @@
 <body>
  <header>
  <div class="container-logo">
-         <a href="#">
+         <a href="{% url 'index'%}">
              <img class="header-logo" src="{% static 'diamond/svg/logo_icon.svg'%}"  alt="diamond logo">
              <img class="header-logo-name" src="{% static 'diamond/svg/logo_name.svg'%}"  alt="diamond name">
          </a>
  </div>
   <nav>
      <ul class="header-menu">
-         <li><a href="../about-us/about-us.html">О нас</a></li>
+             <li>{% block nav-about %}<a href="{% url 'about'%}">О нас</a>{% endblock %}</li>
              <li><a href="#">Услуги и цены</a></li>
              <li><a href="#">Портфолио</a></li>
-             <li class="current"><a href="../testimonials/testimonials.html" >Отзывы</a></li>
+             <li>{% block nav-testimonials %}<a href="{% url 'testimonials'%}" >Отзывы</a>{% endblock %}</li>
              <li><a href="#">Свадебный блог</a></li>
-             <li><a href="../contacts/contacts.html">Контакты</a></li>
+             <li>{% block nav-contacts %}<a href="{% url 'contacts'%}">Контакты</a>{% endblock %}</li>
      </ul>
  </nav>
  <div class="header-contacts">

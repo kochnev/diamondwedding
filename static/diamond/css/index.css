@@ -1,3 +1,9 @@
+main h1 {
+    font-size: 24px;
+    font-family: 'Exo 2.0 Light', sans-serif;
+    text-align: center;
+}
+
 main .main-pict {
     height: 220px;
     background:

@@ -1,0 +1,152 @@
+
+.line{
+
+    background-color: #e7d3ca;
+    height: 2px;
+    border: 0;
+    margin: 0;
+}
+.exo18
+{
+     font-family: 'Exo 2.0 Light', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+.roboto-light-14
+{
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+
+}
+
+main
+{
+    padding-bottom: 10px;
+}
+main .info .contacts {
+    float: left;
+    width: 270px;
+}
+main .row
+{
+    padding: 2px;
+    vertical-align: middle;
+}
+main .info .pic
+{
+    background-size: contain;
+    width: 16px;
+    height:18px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.phone-icon
+{
+    background: url('../svg/cont-svg/phone.svg') no-repeat;
+}
+.mail-icon
+{
+    background: url('../svg/cont-svg/mail.svg') no-repeat;
+}
+.address-icon
+{
+    background: url('../svg/cont-svg/address.svg') no-repeat;
+}
+.time-icon
+{
+    background: url('../svg/cont-svg/time.svg') no-repeat;
+    display: table-cell;
+}
+.details-icon
+{
+    background: url('../svg/cont-svg/details.svg') no-repeat;
+    display: table-cell;
+}
+main .info .information {
+    float: left;
+    width: 600px;
+    display: table;
+    padding-left: 15px;
+}
+main .info .info-text {
+    display: table-cell;
+}
+main .info .yur-info {
+    float: left;
+    display: table;
+}
+
+main .info:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-2 form {
+    float: left;
+    width: 230px;
+    height: 370px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0px;
+}
+
+.main-2 form input[type="text"] {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border-color: #e7d3ca;
+    font-family: 'Roboto Light';
+}
+
+.main-2 form input[name="user-mail"] {
+    margin-bottom: 22px;
+}
+
+.main-2 form input[type="text"]::-webkit-input-placeholder {
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.main-2 form input[name="message"] {
+    margin-top: 15px;
+}
+
+.main-2 form input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+
+    border: #EA4970;
+    color: #EA4970;
+    border-style: solid;
+    border-width: 2px;
+
+    background-color: #f9f9f9;
+
+    cursor: hand;
+    font-weight: bold;
+}
+
+.main-2 form label
+{
+     padding-left: 10px;
+}
+.main-2 .right {
+    float: right;
+    width:900px;
+    height:410px
+}
+
+.main-2:after {
+    content: '';
+    display: table;
+    clear: both;
+}

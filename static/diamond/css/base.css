@@ -65,6 +65,15 @@ header .header-menu li a {
     border-top: 2px solid white;
 }
 
+header .header-menu li span.nav-active {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 70px;
+    padding-left: 0px;
+    color: #d90a51;
+    border-top: 2px solid #d90a51;
+}
+
  header .header-menu li a:hover {
     border-top: 2px solid #d90a51;
     color: #d90a51;
@@ -94,12 +103,6 @@ header:after {
     content: '';
     display: table;
     clear: both;
-}
-
-main h1 {
-    font-size: 24px;
-    font-family: 'Exo 2.0 Light', sans-serif;
-    text-align: center;
 }
 
 

@@ -1,0 +1,100 @@
+.line{
+
+    background-color: #e7d3ca;
+    height: 2px;
+    border: 0;
+    margin: 0;
+}
+/*main*/
+.testimonial
+{
+    background-color: #f9f9f9;
+    height: 304px;
+    padding: 10px;
+}
+.wrapper-main
+{
+    text-align: center;
+}
+.testimonial img
+{
+    display: inline-block;
+    margin-left: 70px;
+}
+.testimonial .date
+{
+    background:white;
+    display: inline-block;
+    float: right;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.testimonial .date .day
+{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 18px;
+}
+.testimonial .date .month
+{
+    text-align: center;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 18px;
+}
+.wrapper-name
+{
+     height: 30px;
+     text-align: center;
+     padding-left: 500px;
+     padding-top: 10px;
+}
+.rings
+{
+    background: url('../svg/testimonials/wedding.svg') no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 6px;
+}
+.video-icon
+{
+    background: url('../svg/testimonials/testimonial.svg') no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.exo18
+{
+     font-family: 'Exo 2.0 Light', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+.roboto18
+{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 18px;
+}
+.roboto10
+{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 10px;
+    color: #d90a51;
+    text-align: center;
+    padding-left: 6px;
+    margin-top: 10px;
+}
+.roboto10-black
+{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 10px;
+}
+.roboto14
+{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}

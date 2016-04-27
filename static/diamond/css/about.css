@@ -1,0 +1,72 @@
+/* стили для main */
+main h1
+{
+     font-family: 'Exo 2.0 Light', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+.main-wrapper
+{
+    height: 380px;
+}
+.main-anna
+{
+    background-image: url('../img/anna.png');
+    background-size: 121px auto;
+    width: 121px;
+    height: 121px;
+    text-align: center;
+    position: relative;
+    left: 525px;
+    z-index: 1;
+}
+.main-about
+{
+    background-image: url('../img/main-about.png');
+    background-size: 1170px auto;
+    width: 1170px;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+    padding-top:100px;
+    position: relative;
+    top: -61px;
+}
+.about .abt-left {
+    float: left;
+    width: 570px;
+    margin-right: 30px;
+    margin-top: -20px;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14px;
+}
+
+.about .abt-left h2 {
+    font-family: 'Exo 2.0 Light', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.about .abt-left .sign {
+    text-align: right;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 14px;
+}
+
+.about .abt-left .sign span {
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.about .abt-right {
+    margin-top: 20px;
+}
+
+.about:after {
+    content: '';
+    display: table;
+    clear: both;
+}
